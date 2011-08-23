@@ -6,9 +6,12 @@
 //  Copyright 2011 bcharp. All rights reserved.
 //
 
-#import "categoryLikeMockViewController.h"
+#import "BCMockViewController.h"
+#import "Test.h"
+#import "Other.h"
+#import "BCMock.h"
 
-@implementation categoryLikeMockViewController
+@implementation BCMockViewController
 
 - (void)dealloc
 {
@@ -25,13 +28,19 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    Other *other = [[Other alloc] init];
+    BCMock *mock = [[BCMock alloc] initWithClass:[Test class]];
+    [mock when:@selector(oneParameter:) jumpTo:@selector(hello) On:other];
+    [mock oneParameter:@"test"];
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {

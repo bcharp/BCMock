@@ -6,9 +6,9 @@
 //  Copyright 2011 bcharp. All rights reserved.
 //
 
-#import "categoryLikeMockAppDelegate.h"
+#import "BCMockAppDelegate.h"
 
-#import "categoryLikeMockViewController.h"
+#import "BCMockViewController.h"
 
 @implementation categoryLikeMockAppDelegate
 
