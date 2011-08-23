@@ -10,21 +10,22 @@
 		A11FFC671404305C00ACB144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC661404305C00ACB144 /* UIKit.framework */; };
 		A11FFC691404305C00ACB144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC681404305C00ACB144 /* Foundation.framework */; };
 		A11FFC6B1404305C00ACB144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC6A1404305C00ACB144 /* CoreGraphics.framework */; };
-		A11FFC711404305C00ACB144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A11FFC6F1404305C00ACB144 /* InfoPlist.strings */; };
-		A11FFC741404305C00ACB144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFC731404305C00ACB144 /* main.m */; };
-		A11FFC771404305C00ACB144 /* BCMockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFC761404305C00ACB144 /* BCMockAppDelegate.m */; };
-		A11FFC7A1404305C00ACB144 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11FFC781404305C00ACB144 /* MainWindow.xib */; };
-		A11FFC7D1404305C00ACB144 /* BCMockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFC7C1404305C00ACB144 /* BCMockViewController.m */; };
-		A11FFC801404305C00ACB144 /* BCMockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11FFC7E1404305C00ACB144 /* BCMockViewController.xib */; };
 		A11FFC871404305C00ACB144 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC661404305C00ACB144 /* UIKit.framework */; };
 		A11FFC881404305C00ACB144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC681404305C00ACB144 /* Foundation.framework */; };
 		A11FFC891404305C00ACB144 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11FFC6A1404305C00ACB144 /* CoreGraphics.framework */; };
 		A11FFC911404305C00ACB144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A11FFC8F1404305C00ACB144 /* InfoPlist.strings */; };
 		A11FFC941404305C00ACB144 /* categoryLikeMockTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A11FFC931404305C00ACB144 /* categoryLikeMockTests.h */; };
 		A11FFC961404305C00ACB144 /* categoryLikeMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFC951404305C00ACB144 /* categoryLikeMockTests.m */; };
-		A11FFCA41404307A00ACB144 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCA21404307A00ACB144 /* Test.m */; };
-		A11FFCA71404333D00ACB144 /* BCMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCA61404333D00ACB144 /* BCMock.m */; };
-		A11FFCAA140433FA00ACB144 /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCA9140433FA00ACB144 /* Other.m */; };
+		A11FFCB41404513000ACB144 /* BCMockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCAF1404512F00ACB144 /* BCMockAppDelegate.m */; };
+		A11FFCB51404513000ACB144 /* BCMockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCB21404512F00ACB144 /* BCMockViewController.m */; };
+		A11FFCBD1404514400ACB144 /* BCMockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCB91404514400ACB144 /* BCMockViewController.xib */; };
+		A11FFCBE1404514400ACB144 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCBB1404514400ACB144 /* MainWindow.xib */; };
+		A11FFCC7140451F400ACB144 /* BCMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCC6140451F400ACB144 /* BCMock.m */; };
+		A11FFCCC1404520400ACB144 /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCC91404520400ACB144 /* Other.m */; };
+		A11FFCCD1404520400ACB144 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCCB1404520400ACB144 /* Test.m */; };
+		A11FFCDB140452DE00ACB144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCDA140452DE00ACB144 /* main.m */; };
+		A11FFCE2140452F100ACB144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCE0140452F100ACB144 /* InfoPlist.strings */; };
+		A11FFCE61404538000ACB144 /* BCMock-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCE51404538000ACB144 /* BCMock-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,28 +43,28 @@
 		A11FFC661404305C00ACB144 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A11FFC681404305C00ACB144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A11FFC6A1404305C00ACB144 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A11FFC6E1404305C00ACB144 /* BCMock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BCMock-Info.plist"; sourceTree = "<group>"; };
-		A11FFC701404305C00ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A11FFC721404305C00ACB144 /* BCMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BCMock-Prefix.pch"; sourceTree = "<group>"; };
-		A11FFC731404305C00ACB144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A11FFC751404305C00ACB144 /* BCMockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCMockAppDelegate.h; sourceTree = "<group>"; };
-		A11FFC761404305C00ACB144 /* BCMockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCMockAppDelegate.m; sourceTree = "<group>"; };
-		A11FFC791404305C00ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A11FFC7B1404305C00ACB144 /* BCMockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCMockViewController.h; sourceTree = "<group>"; };
-		A11FFC7C1404305C00ACB144 /* BCMockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCMockViewController.m; sourceTree = "<group>"; };
-		A11FFC7F1404305C00ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BCMockViewController.xib; sourceTree = "<group>"; };
 		A11FFC861404305C00ACB144 /* BCMockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCMockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11FFC8E1404305C00ACB144 /* BCMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BCMockTests-Info.plist"; sourceTree = "<group>"; };
 		A11FFC901404305C00ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A11FFC921404305C00ACB144 /* BCMockTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BCMockTests-Prefix.pch"; sourceTree = "<group>"; };
 		A11FFC931404305C00ACB144 /* categoryLikeMockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = categoryLikeMockTests.h; sourceTree = "<group>"; };
 		A11FFC951404305C00ACB144 /* categoryLikeMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = categoryLikeMockTests.m; sourceTree = "<group>"; };
-		A11FFCA11404307A00ACB144 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		A11FFCA21404307A00ACB144 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		A11FFCA51404333D00ACB144 /* BCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCMock.h; sourceTree = "<group>"; };
-		A11FFCA61404333D00ACB144 /* BCMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCMock.m; sourceTree = "<group>"; };
-		A11FFCA8140433FA00ACB144 /* Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
-		A11FFCA9140433FA00ACB144 /* Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Other.m; sourceTree = "<group>"; };
+		A11FFCAF1404512F00ACB144 /* BCMockAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCMockAppDelegate.m; path = BCMock/BCMockAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A11FFCB01404512F00ACB144 /* BCMockAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCMockAppDelegate.h; path = BCMock/BCMockAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		A11FFCB11404512F00ACB144 /* BCMockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCMockViewController.h; path = BCMock/BCMockViewController.h; sourceTree = SOURCE_ROOT; };
+		A11FFCB21404512F00ACB144 /* BCMockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCMockViewController.m; path = BCMock/BCMockViewController.m; sourceTree = SOURCE_ROOT; };
+		A11FFCBA1404514400ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = BCMock/en.lproj/BCMockViewController.xib; sourceTree = SOURCE_ROOT; };
+		A11FFCBC1404514400ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = BCMock/en.lproj/MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		A11FFCC5140451F400ACB144 /* BCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCMock.h; path = BCMock/BCMock.h; sourceTree = SOURCE_ROOT; };
+		A11FFCC6140451F400ACB144 /* BCMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCMock.m; path = BCMock/BCMock.m; sourceTree = SOURCE_ROOT; };
+		A11FFCC81404520400ACB144 /* Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Other.h; path = BCMock/Other.h; sourceTree = SOURCE_ROOT; };
+		A11FFCC91404520400ACB144 /* Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Other.m; path = BCMock/Other.m; sourceTree = SOURCE_ROOT; };
+		A11FFCCA1404520400ACB144 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = BCMock/Test.h; sourceTree = SOURCE_ROOT; };
+		A11FFCCB1404520400ACB144 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = BCMock/Test.m; sourceTree = SOURCE_ROOT; };
+		A11FFCDA140452DE00ACB144 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BCMock/main.m; sourceTree = SOURCE_ROOT; };
+		A11FFCE1140452F100ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = BCMock/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		A11FFCE51404538000ACB144 /* BCMock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BCMock-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A11FFCE7140454A000ACB144 /* BCMock-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BCMock-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,19 +123,13 @@
 		A11FFC6C1404305C00ACB144 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				A11FFCA11404307A00ACB144 /* Test.h */,
-				A11FFCA21404307A00ACB144 /* Test.m */,
-				A11FFC751404305C00ACB144 /* BCMockAppDelegate.h */,
-				A11FFC761404305C00ACB144 /* BCMockAppDelegate.m */,
-				A11FFC781404305C00ACB144 /* MainWindow.xib */,
-				A11FFC7B1404305C00ACB144 /* BCMockViewController.h */,
-				A11FFC7C1404305C00ACB144 /* BCMockViewController.m */,
-				A11FFC7E1404305C00ACB144 /* BCMockViewController.xib */,
+				A11FFCC4140451CC00ACB144 /* Objects */,
+				A11FFCC3140451AE00ACB144 /* Controller */,
+				A11FFCC2140451A600ACB144 /* Views */,
+				A11FFCC11404519300ACB144 /* BCMock */,
+				A11FFCB01404512F00ACB144 /* BCMockAppDelegate.h */,
+				A11FFCBF1404517200ACB144 /* BCMockAppDelegate.m */,
 				A11FFC6D1404305C00ACB144 /* Supporting Files */,
-				A11FFCA51404333D00ACB144 /* BCMock.h */,
-				A11FFCA61404333D00ACB144 /* BCMock.m */,
-				A11FFCA8140433FA00ACB144 /* Other.h */,
-				A11FFCA9140433FA00ACB144 /* Other.m */,
 			);
 			name = Mock;
 			path = categoryLikeMock;
@@ -143,10 +138,10 @@
 		A11FFC6D1404305C00ACB144 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A11FFC6E1404305C00ACB144 /* BCMock-Info.plist */,
-				A11FFC6F1404305C00ACB144 /* InfoPlist.strings */,
-				A11FFC721404305C00ACB144 /* BCMock-Prefix.pch */,
-				A11FFC731404305C00ACB144 /* main.m */,
+				A11FFCE7140454A000ACB144 /* BCMock-Prefix.pch */,
+				A11FFCE0140452F100ACB144 /* InfoPlist.strings */,
+				A11FFCDA140452DE00ACB144 /* main.m */,
+				A11FFCE51404538000ACB144 /* BCMock-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,6 +165,44 @@
 				A11FFC921404305C00ACB144 /* BCMockTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A11FFCC11404519300ACB144 /* BCMock */ = {
+			isa = PBXGroup;
+			children = (
+				A11FFCC5140451F400ACB144 /* BCMock.h */,
+				A11FFCC6140451F400ACB144 /* BCMock.m */,
+			);
+			name = BCMock;
+			sourceTree = "<group>";
+		};
+		A11FFCC2140451A600ACB144 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A11FFCB91404514400ACB144 /* BCMockViewController.xib */,
+				A11FFCBB1404514400ACB144 /* MainWindow.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A11FFCC3140451AE00ACB144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A11FFCB11404512F00ACB144 /* BCMockViewController.h */,
+				A11FFCB21404512F00ACB144 /* BCMockViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A11FFCC4140451CC00ACB144 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A11FFCC81404520400ACB144 /* Other.h */,
+				A11FFCC91404520400ACB144 /* Other.m */,
+				A11FFCCA1404520400ACB144 /* Test.h */,
+				A11FFCCB1404520400ACB144 /* Test.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +275,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11FFC711404305C00ACB144 /* InfoPlist.strings in Resources */,
-				A11FFC7A1404305C00ACB144 /* MainWindow.xib in Resources */,
-				A11FFC801404305C00ACB144 /* BCMockViewController.xib in Resources */,
+				A11FFCBD1404514400ACB144 /* BCMockViewController.xib in Resources */,
+				A11FFCBE1404514400ACB144 /* MainWindow.xib in Resources */,
+				A11FFCE2140452F100ACB144 /* InfoPlist.strings in Resources */,
+				A11FFCE61404538000ACB144 /* BCMock-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11FFC741404305C00ACB144 /* main.m in Sources */,
-				A11FFC771404305C00ACB144 /* BCMockAppDelegate.m in Sources */,
-				A11FFC7D1404305C00ACB144 /* BCMockViewController.m in Sources */,
-				A11FFCA41404307A00ACB144 /* Test.m in Sources */,
-				A11FFCA71404333D00ACB144 /* BCMock.m in Sources */,
-				A11FFCAA140433FA00ACB144 /* Other.m in Sources */,
+				A11FFCB41404513000ACB144 /* BCMockAppDelegate.m in Sources */,
+				A11FFCB51404513000ACB144 /* BCMockViewController.m in Sources */,
+				A11FFCC7140451F400ACB144 /* BCMock.m in Sources */,
+				A11FFCCC1404520400ACB144 /* Other.m in Sources */,
+				A11FFCCD1404520400ACB144 /* Test.m in Sources */,
+				A11FFCDB140452DE00ACB144 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,34 +342,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A11FFC6F1404305C00ACB144 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11FFC701404305C00ACB144 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A11FFC781404305C00ACB144 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11FFC791404305C00ACB144 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		A11FFC7E1404305C00ACB144 /* BCMockViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A11FFC7F1404305C00ACB144 /* en */,
-			);
-			name = BCMockViewController.xib;
-			sourceTree = "<group>";
-		};
 		A11FFC8F1404305C00ACB144 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A11FFC901404305C00ACB144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A11FFCB91404514400ACB144 /* BCMockViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11FFCBA1404514400ACB144 /* en */,
+			);
+			name = BCMockViewController.xib;
+			sourceTree = "<group>";
+		};
+		A11FFCBB1404514400ACB144 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11FFCBC1404514400ACB144 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A11FFCE0140452F100ACB144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11FFCE1140452F100ACB144 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -382,8 +416,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "categoryLikeMock/BCMock-Prefix.pch";
-				INFOPLIST_FILE = "categoryLikeMock/BCMock-Info.plist";
+				GCC_PREFIX_HEADER = "BCMock-Prefix.pch";
+				INFOPLIST_FILE = "BCMock-Info.plist";
 				PRODUCT_NAME = BCMock;
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,8 +429,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "categoryLikeMock/BCMock-Prefix.pch";
-				INFOPLIST_FILE = "categoryLikeMock/BCMock-Info.plist";
+				GCC_PREFIX_HEADER = "BCMock-Prefix.pch";
+				INFOPLIST_FILE = "BCMock-Info.plist";
 				PRODUCT_NAME = BCMock;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -413,8 +447,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "categoryLikeMockTests/BCMockTests-Prefix.pch";
-				INFOPLIST_FILE = "categoryLikeMockTests/BCMockTests-Info.plist";
+				GCC_PREFIX_HEADER = "BCMockTests-Prefix.pch";
+				INFOPLIST_FILE = "BCMockTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
@@ -435,8 +469,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "categoryLikeMockTests/BCMockTests-Prefix.pch";
-				INFOPLIST_FILE = "categoryLikeMockTests/BCMockTests-Info.plist";
+				GCC_PREFIX_HEADER = "BCMockTests-Prefix.pch";
+				INFOPLIST_FILE = "BCMockTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
 					SenTestingKit,
@@ -466,6 +500,7 @@
 				A11FFC9B1404305C00ACB144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A11FFC9C1404305C00ACB144 /* Build configuration list for PBXNativeTarget "BCMockTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +509,7 @@
 				A11FFC9E1404305C00ACB144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

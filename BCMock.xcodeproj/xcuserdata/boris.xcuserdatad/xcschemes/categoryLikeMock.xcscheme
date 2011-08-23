@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A11FFC611404305C00ACB144"
-               BuildableName = "categoryLikeMock.app"
+               BuildableName = "BCMock.app"
                BlueprintName = "BCMock"
                ReferencedContainer = "container:BCMock.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A11FFC851404305C00ACB144"
-               BuildableName = "categoryLikeMockTests.octest"
+               BuildableName = "BCMockTests.octest"
                BlueprintName = "BCMockTests"
                ReferencedContainer = "container:BCMock.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A11FFC611404305C00ACB144"
-            BuildableName = "categoryLikeMock.app"
+            BuildableName = "BCMock.app"
             BlueprintName = "BCMock"
             ReferencedContainer = "container:BCMock.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A11FFC611404305C00ACB144"
-            BuildableName = "categoryLikeMock.app"
+            BuildableName = "BCMock.app"
             BlueprintName = "BCMock"
             ReferencedContainer = "container:BCMock.xcodeproj">
          </BuildableReference>

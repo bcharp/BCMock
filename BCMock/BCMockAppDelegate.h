@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@class categoryLikeMockViewController;
+@class BCMockViewController;
 
-@interface categoryLikeMockAppDelegate : NSObject <UIApplicationDelegate> {
+@interface BCMockAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet categoryLikeMockViewController *viewController;
+@property (nonatomic, retain) IBOutlet BCMockViewController *viewController;
 
 @end

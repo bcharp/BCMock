@@ -15,7 +15,7 @@
 
 -(void)hello{
 
-    NSLog(@"youpi");
+    NSLog(@"Hello in other");
 
 }
 @end

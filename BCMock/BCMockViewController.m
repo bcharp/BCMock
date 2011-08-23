@@ -36,7 +36,10 @@
     
     Other *other = [[Other alloc] init];
     BCMock *mock = [[BCMock alloc] initWithClass:[Test class]];
+    
     [mock when:@selector(oneParameter:) jumpTo:@selector(hello) On:other];
+    
+    [mock anotherOneParameter:@"YATTAAAA"];
     [mock oneParameter:@"test"];
     
 }

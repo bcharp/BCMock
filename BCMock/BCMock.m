@@ -22,8 +22,6 @@
     
     return self;
 
-
-
 }
 
 -(void)when:(SEL)origin jumpTo:(SEL)destination On:(id)obj{
@@ -56,7 +54,8 @@
         [other performSelector:NSSelectorFromString([[selectorsDico objectForKey:NSStringFromSelector([invocation selector])] objectAtIndex:0])];
         
     }else if([obj respondsToSelector:[invocation selector]]){
-        [obj performSelector:[invocation selector]];
+        //[obj performSelector:[invocation selector]];
+        [invocation invokeWithTarget:obj];
     }
     
 }

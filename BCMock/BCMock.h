@@ -12,7 +12,7 @@
 @interface BCMock : NSObject {
     
     NSMutableDictionary *selectorsDico;
-    Class *proxy;
+    Class proxy;
 }
 
 

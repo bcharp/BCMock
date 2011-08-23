@@ -14,7 +14,9 @@
 
 
 -(void)test;
+-(void)autre;
 -(void)oneParameter:(id)test;
+-(void)anotherOneParameter:(NSString *)text;
 
 
 @end

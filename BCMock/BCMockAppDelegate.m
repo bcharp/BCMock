@@ -10,7 +10,7 @@
 
 #import "BCMockViewController.h"
 
-@implementation categoryLikeMockAppDelegate
+@implementation BCMockAppDelegate
 
 
 @synthesize window=_window;
