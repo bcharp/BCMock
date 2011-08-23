@@ -25,7 +25,6 @@ is equivalent to :
 
 Test *test = [[Test alloc] init];
 [test oneParameter:@"test"];
-(note : that may currently not working so well)
 
 But here there is another line : 
 
@@ -33,8 +32,7 @@ But here there is another line :
 
 Means : when (and if) I call oneParameter: on my mock object, instead I will call "hello" on the object "other". 
 
-That helps me resolve my user story, cause I can call that on my service object and say no you won't call parsingWithResultOfRequest:, you will call 
-parseMyLocalFile:
+That helps me resolve my user story, cause I can call that on a mock of my service object and say no you won't call parsingWithResultOfRequest: after all, you will call parseMyLocalFile:
 
 This is a work in progress, if you have any suggestion send me an email at boris.charpentier@gmail.com
 
