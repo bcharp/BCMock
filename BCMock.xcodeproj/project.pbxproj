@@ -26,6 +26,12 @@
 		A11FFCDB140452DE00ACB144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FFCDA140452DE00ACB144 /* main.m */; };
 		A11FFCE2140452F100ACB144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCE0140452F100ACB144 /* InfoPlist.strings */; };
 		A11FFCE61404538000ACB144 /* BCMock-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A11FFCE51404538000ACB144 /* BCMock-Info.plist */; };
+		A13077951406A303009B9D42 /* BCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A13077941406A303009B9D42 /* BCMockObject.m */; };
+		A13077961406A303009B9D42 /* BCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A13077941406A303009B9D42 /* BCMockObject.m */; };
+		A13077991406A335009B9D42 /* BCGlobalMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A13077981406A335009B9D42 /* BCGlobalMock.m */; };
+		A130779A1406A335009B9D42 /* BCGlobalMock.m in Sources */ = {isa = PBXBuildFile; fileRef = A13077981406A335009B9D42 /* BCGlobalMock.m */; };
+		A13077A61406A63A009B9D42 /* BCOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13077A41406A63A009B9D42 /* BCOtherViewController.m */; };
+		A13077A71406A63A009B9D42 /* BCOtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13077A51406A63A009B9D42 /* BCOtherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,13 @@
 		A11FFCE1140452F100ACB144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = BCMock/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		A11FFCE51404538000ACB144 /* BCMock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BCMock-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A11FFCE7140454A000ACB144 /* BCMock-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BCMock-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A13077931406A303009B9D42 /* BCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCMockObject.h; sourceTree = SOURCE_ROOT; };
+		A13077941406A303009B9D42 /* BCMockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCMockObject.m; sourceTree = SOURCE_ROOT; };
+		A13077971406A335009B9D42 /* BCGlobalMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCGlobalMock.h; sourceTree = SOURCE_ROOT; };
+		A13077981406A335009B9D42 /* BCGlobalMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCGlobalMock.m; sourceTree = SOURCE_ROOT; };
+		A13077A31406A63A009B9D42 /* BCOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOtherViewController.h; sourceTree = SOURCE_ROOT; };
+		A13077A41406A63A009B9D42 /* BCOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCOtherViewController.m; sourceTree = SOURCE_ROOT; };
+		A13077A51406A63A009B9D42 /* BCOtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCOtherViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +141,6 @@
 				A11FFCC2140451A600ACB144 /* Views */,
 				A11FFCC11404519300ACB144 /* BCMock */,
 				A11FFCB01404512F00ACB144 /* BCMockAppDelegate.h */,
-				A11FFCBF1404517200ACB144 /* BCMockAppDelegate.m */,
 				A11FFC6D1404305C00ACB144 /* Supporting Files */,
 			);
 			name = Mock;
@@ -172,6 +184,10 @@
 			children = (
 				A11FFCC5140451F400ACB144 /* BCMock.h */,
 				A11FFCC6140451F400ACB144 /* BCMock.m */,
+				A13077931406A303009B9D42 /* BCMockObject.h */,
+				A13077941406A303009B9D42 /* BCMockObject.m */,
+				A13077971406A335009B9D42 /* BCGlobalMock.h */,
+				A13077981406A335009B9D42 /* BCGlobalMock.m */,
 			);
 			name = BCMock;
 			sourceTree = "<group>";
@@ -190,6 +206,9 @@
 			children = (
 				A11FFCB11404512F00ACB144 /* BCMockViewController.h */,
 				A11FFCB21404512F00ACB144 /* BCMockViewController.m */,
+				A13077A31406A63A009B9D42 /* BCOtherViewController.h */,
+				A13077A41406A63A009B9D42 /* BCOtherViewController.m */,
+				A13077A51406A63A009B9D42 /* BCOtherViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -279,6 +298,7 @@
 				A11FFCBE1404514400ACB144 /* MainWindow.xib in Resources */,
 				A11FFCE2140452F100ACB144 /* InfoPlist.strings in Resources */,
 				A11FFCE61404538000ACB144 /* BCMock-Info.plist in Resources */,
+				A13077A71406A63A009B9D42 /* BCOtherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +340,9 @@
 				A11FFCCC1404520400ACB144 /* Other.m in Sources */,
 				A11FFCCD1404520400ACB144 /* Test.m in Sources */,
 				A11FFCDB140452DE00ACB144 /* main.m in Sources */,
+				A13077951406A303009B9D42 /* BCMockObject.m in Sources */,
+				A13077991406A335009B9D42 /* BCGlobalMock.m in Sources */,
+				A13077A61406A63A009B9D42 /* BCOtherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +351,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11FFC961404305C00ACB144 /* categoryLikeMockTests.m in Sources */,
+				A13077961406A303009B9D42 /* BCMockObject.m in Sources */,
+				A130779A1406A335009B9D42 /* BCGlobalMock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

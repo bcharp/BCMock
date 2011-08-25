@@ -1,19 +1,25 @@
 //
-//  categoryLikeMockViewController.m
-//  categoryLikeMock
+//  BCOtherViewController.m
+//  BCMock
 //
-//  Created by boris charpentier on 23/08/11.
+//  Created by boris charpentier on 25/08/11.
 //  Copyright 2011 bcharp. All rights reserved.
 //
 
-#import "BCMockViewController.h"
-#import "Test.h"
-#import "Other.h"
-#import "BCMock.h"
-#import "BCGlobalMock.h"
 #import "BCOtherViewController.h"
+#import "Test.h"
+#import "BCGlobalMock.h"
 
-@implementation BCMockViewController
+@implementation BCOtherViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)dealloc
 {
@@ -30,24 +36,16 @@
 
 #pragma mark - View lifecycle
 
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    Other *other = [[Other alloc] init];
+    //we don't reset our when jumpto, it has allready been done in another part of the app, and will always jump.
     Test *test = [[Test alloc] init];
     BCGlobalMock *gmock = [[BCGlobalMock alloc] initWithObject:test];
-    
-    //that will be true in all the app.
-    [gmock when:@selector(oneParameter:) jumpTo:@selector(hello) On:other];
-    
     [gmock anotherOneParameter:@"YATTAAAA"];
     [gmock oneParameter:@"test"];
     
 }
-
 
 - (void)viewDidUnload
 {
@@ -62,11 +60,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)ActionForModal:(id)sender {
-    
-    BCOtherViewController *otherViewController = [[BCOtherViewController alloc] initWithNibName:nil bundle:nil];
-    [self presentModalViewController:otherViewController animated:YES];
-    [otherViewController release];
-    
-}
 @end

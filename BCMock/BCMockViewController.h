@@ -11,5 +11,6 @@
 @interface BCMockViewController : UIViewController {
     
 }
+- (IBAction)ActionForModal:(id)sender;
 
 @end
