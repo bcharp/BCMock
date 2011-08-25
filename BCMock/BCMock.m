@@ -11,17 +11,32 @@
 
 @implementation BCMock
 
--(id)initWithClass:(Class)myClass{
-
-
-    if ((self = [super init])) {
-        selectorsDico = [[NSMutableDictionary alloc] init];
-        proxy = myClass;
-    }
-
+-(id)initWithClass:(Class)c{
     
+    self = [super init];
+    if (self) {
+        
+        selectorsDico = [[NSMutableDictionary alloc] init];
+        
+        proxy = c;
+        mode = 0;
+        
+    }
     return self;
+}
 
+-(id)initWithObject:(id)obj{
+    
+    self = [super init];
+    if (self) {
+        
+        selectorsDico = [[NSMutableDictionary alloc] init];
+        
+        object = [obj retain];
+        mode = 1;
+        
+    }
+    return self;
 }
 
 -(void)when:(SEL)origin jumpTo:(SEL)destination On:(id)obj{
@@ -33,7 +48,12 @@
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)sel { 
     
-    id obj = [[proxy alloc] init];
+    id obj;
+    if (mode == 0) {
+        obj = [[proxy alloc] init]; 
+    }else if(mode == 1){
+        obj = object;
+    }
     if ([[selectorsDico allKeys] containsObject:NSStringFromSelector(sel)]){
         id other = [[selectorsDico objectForKey:NSStringFromSelector(sel)] objectAtIndex:1];
         return [other methodSignatureForSelector:NSSelectorFromString([[selectorsDico objectForKey:NSStringFromSelector(sel)] objectAtIndex:0])];
@@ -48,7 +68,12 @@
 
 -(void)forwardInvocation:(NSInvocation *)invocation{
     
-    id obj = [[proxy alloc] init];
+    id obj;
+    if (mode == 0) {
+        obj = [[proxy alloc] init]; 
+    }else if(mode == 1){
+        obj = object;
+    }
     if ([[selectorsDico allKeys] containsObject:NSStringFromSelector([invocation selector])]) { 
         id other = [[selectorsDico objectForKey:NSStringFromSelector([invocation selector])] objectAtIndex:1];
         [other performSelector:NSSelectorFromString([[selectorsDico objectForKey:NSStringFromSelector([invocation selector])] objectAtIndex:0])];

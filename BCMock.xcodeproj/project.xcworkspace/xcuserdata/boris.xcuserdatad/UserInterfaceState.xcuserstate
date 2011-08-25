@@ -806,7 +806,7 @@
 		<string>DocumentNavigableItemName</string>
 		<string>DocumentExtensionIdentifier</string>
 		<string>DocumentURL</string>
-		<string>public.objective-c-source</string>
+		<string>public.c-header</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -873,7 +873,7 @@
 				<integer>88</integer>
 			</dict>
 		</dict>
-		<string>BCOtherViewController.m</string>
+		<string>BCMock.h</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -895,7 +895,7 @@
 				<integer>91</integer>
 			</dict>
 		</dict>
-		<string>Controller</string>
+		<string>BCMock</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -955,7 +955,7 @@
 				<integer>99</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/bobo0087/Documents/BCMock/BCOtherViewController.m</string>
+			<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.h</string>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1034,11 +1034,11 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>335980738.560085</real>
-		<string>{413, 1062}</string>
+		<real>335980926.776106</real>
+		<string>{0, 431}</string>
 		<false/>
-		<string>{1074, 0}</string>
-		<string>-viewDidLoad</string>
+		<string>{363, 0}</string>
+		<string>@interface BCMock</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -1057,7 +1057,7 @@
 				<integer>114</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCOtherViewController.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.h</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1347,11 +1347,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>135</integer>
+					<integer>83</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>136</integer>
+					<integer>135</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1359,11 +1359,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>139</integer>
+					<integer>138</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>139</integer>
+					<integer>138</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1375,7 +1375,6 @@
 				</dict>
 			</array>
 		</dict>
-		<string>public.c-header</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1395,7 +1394,7 @@
 			<key>IdentifierPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>137</integer>
+				<integer>136</integer>
 			</dict>
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
@@ -1413,11 +1412,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>138</integer>
+					<integer>137</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>140</integer>
+					<integer>139</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1442,7 +1441,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>139</integer>
+				<integer>138</integer>
 			</dict>
 		</dict>
 		<string>BCMockViewController.h</string>
@@ -1455,9 +1454,10 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>91</integer>
+				<integer>140</integer>
 			</dict>
 		</dict>
+		<string>Controller</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1725,7 +1725,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>135</integer>
+					<integer>83</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1737,11 +1737,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>139</integer>
+					<integer>138</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>139</integer>
+					<integer>138</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1815,7 +1815,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>139</integer>
+				<integer>138</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -1827,7 +1827,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>91</integer>
+				<integer>140</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2375,7 +2375,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>218</integer>
+					<integer>219</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2441,11 +2441,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>88</integer>
+					<integer>218</integer>
 				</dict>
 			</array>
 		</dict>
 		<string>BCMock</string>
+		<string>BCMock.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2456,10 +2457,6 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>219</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>220</integer>
 				</dict>
 				<dict>
@@ -2468,20 +2465,24 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>223</integer>
+					<integer>222</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>225</integer>
+					<integer>224</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>227</integer>
+					<integer>226</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>228</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>229</integer>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -2534,7 +2535,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>222</integer>
+					<integer>223</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2557,7 +2558,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>224</integer>
+					<integer>225</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2580,7 +2581,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>226</integer>
+					<integer>227</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2603,7 +2604,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>91</integer>
+					<integer>140</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2625,11 +2626,10 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>229</integer>
+					<integer>91</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>BCMock</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2963,7 +2963,7 @@
 		</dict>
 		<string>IDEUtilitiesArea</string>
 		<real>260</real>
-		<string>BCOtherViewController.m</string>
+		<string>BCMock.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5703,9 +5703,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980724.84570497</real>
-		<string>{0, 373}</string>
-		<string>{214, 35}</string>
+		<real>335980926.773794</real>
+		<string>{0, 431}</string>
+		<string>{363, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5799,7 +5799,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980729.52486801</real>
+		<real>335980835.25666898</real>
 		<string>{0, 220}</string>
 		<dict>
 			<key>$class</key>
@@ -6464,7 +6464,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980730.65276998</real>
+		<real>335980832.07781899</real>
 		<string>{0, 196}</string>
 		<dict>
 			<key>$class</key>
@@ -6698,7 +6698,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980738.55536097</real>
+		<real>335980839.10758698</real>
 		<string>{413, 1062}</string>
 		<string>{1074, 0}</string>
 		<dict>
@@ -7029,9 +7029,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980731.38827097</real>
+		<real>335980862.77385098</real>
 		<string>{0, 436}</string>
-		<string>{429, 0}</string>
+		<string>{261, 41}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7348,9 +7348,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980728.49307501</real>
-		<string>{0, 1119}</string>
-		<string>{603, 0}</string>
+		<real>335980915.46725398</real>
+		<string>{0, 877}</string>
+		<string>{408, 27}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7444,7 +7444,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980715.07704902</real>
+		<real>335980847.53292602</real>
 		<string>{347, 1135}</string>
 		<string>{1120, 0}</string>
 		<dict>
@@ -7492,9 +7492,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>335980733.72308701</real>
-		<string>{0, 876}</string>
-		<string>{860, 0}</string>
+		<real>335980902.33551401</real>
+		<string>{1031, 1225}</string>
+		<string>{1623, 119}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10215,7 +10215,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>229</integer>
+					<integer>91</integer>
 				</dict>
 			</array>
 		</dict>
@@ -10563,7 +10563,7 @@
 				<integer>801</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCOtherViewController.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10581,7 +10581,7 @@
 				<integer>803</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCGlobalMock.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10599,7 +10599,7 @@
 				<integer>805</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCGlobalMock.h</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCGlobalMock.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10617,7 +10617,7 @@
 				<integer>807</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMockObject.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCGlobalMock.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10635,7 +10635,7 @@
 				<integer>809</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMockObject.h</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMockViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10653,7 +10653,7 @@
 				<integer>811</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCOtherViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10671,7 +10671,7 @@
 				<integer>813</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMock.h</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMockObject.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10689,7 +10689,7 @@
 				<integer>815</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMock/BCMockViewController.m</string>
+		<string>file://localhost/Users/bobo0087/Documents/BCMock/BCMockObject.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
