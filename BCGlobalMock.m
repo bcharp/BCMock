@@ -11,6 +11,7 @@
 
 @implementation BCGlobalMock
 
+static NSMutableDictionary *selectorsDico;
 
 -(id)initWithClass:(Class)c{
 

@@ -26,16 +26,12 @@
 }
 
 -(void)anotherOneParameter:(NSString *)text{
-
     NSLog(@"text %@",text);
-
 }
 
 
 -(void)autre{
-    
     NSLog(@"other world");
-
 }
 
 @end

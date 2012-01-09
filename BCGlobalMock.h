@@ -9,9 +9,6 @@
 #import <Foundation/Foundation.h>
 
 
-
-static NSMutableDictionary *selectorsDico;
-
 @interface BCGlobalMock : NSObject {
     
     id object;
